@@ -103,7 +103,7 @@ img {
 /* inicia el modal */
 .modal{
 	width: 100%;
-	height: 70%;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -120,16 +120,15 @@ img {
 #btn-modal:checked ~ .modal{
 	opacity: 1;
 	visibility: visible;
-  z-index: 99; 
+  z-index:99 ; 
 } 
 .contenedor{
-	width: 400px;
+	width: 320px;
 	height: auto;
 	margin: auto;
 	background: #fff;
 	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
 	transition: all 500ms ease;
-
 	transform: translateY(-30%);
 
 }
@@ -172,6 +171,12 @@ img {
 	margin-bottom: 7px;
  
 }
+.precioProducto{
+  display:block;
+  padding: 5px ;
+  color: #000;
+
+}
 .boton-eliminar{
   position: absolute;
 }
@@ -182,6 +187,19 @@ img {
 #btn-modal{
 	display: none;
   z-index: 99;
+}
+#btn-comprar{
+  color: #fff;
+  margin-left: 60%;
+	padding: 7px ;
+  background: #28985E;
+  border: solid 1px black; 
+	cursor: pointer;
+  transition: all 3s;
+}
+
+#btn-comprar:hover{
+  border-radius: 7px;
 }
 .lbl-modal{
 	background: #fff;
