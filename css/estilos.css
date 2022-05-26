@@ -3,10 +3,7 @@
   font-family: "Inconsolata";
   src: url(../fonts/inconsolata.ttf);
 }
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf);
-}
+
 * {
   box-sizing: border-box;
 }
